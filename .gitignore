@@ -6,23 +6,26 @@ __pycache__/
 *.obj
 dist/
 build/
-target/
+*.class
+*.exe
+*.dll
+*.so
+*.a
+*.out
 
 # Dependencies
 node_modules/
 vendor/
 composer.lock
-*.lock
+.env
+.env.local
+.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Environment
-.env
-.env.local
-.env.*
+*.swo
 
 # Editors
 .vscode/
@@ -30,25 +33,34 @@ composer.lock
 *.swp
 *.swo
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Laravel specific
-/storage/
-/bootstrap/cache/
-public/storage
-.env.testing
-
-# Database
-*.db
-*.db-journal
-
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# PHP specific
-.php_cs.cache
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.nox/
+.pytest_cache/
+.mypy_cache/
+
+# Laravel specific
+bootstrap/cache/
+storage/
+public/storage
+.npm
+.yarn
+.DS_Store
+Thumbs.db
 ```
