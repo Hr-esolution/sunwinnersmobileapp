@@ -1,25 +1,68 @@
-/vendor
-/node_modules
+```
+# Dependencies
+vendor/
+node_modules/
 
-# Environnement
+# Build and cache directories
+bootstrap/cache/
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+public/storage/
+
+# Environment
 .env
+.env.local
 .env.*
 
-# Storage
-/storage/*.key
-/storage/framework/
-!/storage/framework/.gitignore
-/storage/logs/
-
-# Cache / tests
-.phpunit.result.cache
-
-# IDE / OS
-.idea/
-.vscode/
-.DS_Store
-
-# Archives
-*.zip
+# Logs
 *.log
-*.tmp
+storage/logs/*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.phpc
+*.o
+*.obj
+*.out
+
+# Coverage and testing
+coverage/
+htmlcov/
+.coverage
+*.coverage
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
