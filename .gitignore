@@ -1,0 +1,25 @@
+/vendor
+/node_modules
+
+# Environnement
+.env
+.env.*
+
+# Storage
+/storage/*.key
+/storage/framework/
+!/storage/framework/.gitignore
+/storage/logs/
+
+# Cache / tests
+.phpunit.result.cache
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Archives
+*.zip
+*.log
+*.tmp
