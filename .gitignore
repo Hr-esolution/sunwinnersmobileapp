@@ -1,37 +1,10 @@
 ```
-# Laravel/Laravel-related ignores
-vendor/
-node_modules/
-public/storage
-bootstrap/cache/
-storage/logs/
-storage/framework/
-.npm/
-.yarn/
-
-# Environment
-.env
-.env.local
-.env.*
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Build/compiled files
+# Compiled and build artifacts
 *.pyc
 __pycache__/
 *.o
 *.obj
+*.class
 *.exe
 *.dll
 *.so
@@ -39,19 +12,39 @@ __pycache__/
 *.out
 
 # Dependencies
-.venv/
+node_modules/
 venv/
-pip-log.txt
-pipenv.lock
-poetry.lock
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Temp files
-*.tmp
-*.temp
-*~
+# Build directories
+dist/
+build/
+target/
+.gradle/
+
+# Python specific
+.mypy_cache/
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
 ```
